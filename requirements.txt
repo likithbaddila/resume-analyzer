@@ -1,0 +1,9 @@
+langchain
+openai
+streamlit
+PyPDF2 
+langchain-openai 
+tiktoken
+chromadb
+python-dotenv
+fpdf
