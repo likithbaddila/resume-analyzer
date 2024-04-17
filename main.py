@@ -13,6 +13,7 @@ from langchain import PromptTemplate
 from langchain.chains.summarize import load_summarize_chain
 from langchain.docstore.document import Document
 
+os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"]
 api_key=os.environ.get("OPENAI_API_KEY")
 
 st.title('Resume Analyzer')
